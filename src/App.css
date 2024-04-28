@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-  
+ 
+}
+.container{
+  max-width: 720px;
+
 }
 
+footer{
+  margin-top: 20px;
+}
 

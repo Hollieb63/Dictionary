@@ -32,10 +32,15 @@ function search(event){
 }
 
     return(
+      
         <div className="Dictionary">
+            <section>
           <form onSubmit={search}>
-            <input type="search"onChange={handleKeywordChange}/>
+            <label><h2 className="label">Browse the Dictionary </h2></label>
+            <input type="search" placeholder="Search for a word" class="form-control search-input" onChange={handleKeywordChange}/>
           </form>
+          <small class="hint">i.e. London, weather, coffee</small>
+          </section>
           <Results results={results}/>
         </div>
     )
