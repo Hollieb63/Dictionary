@@ -37,9 +37,10 @@ function search(event){
             <section>
           <form onSubmit={search}>
             <label><h2 className="label">Browse the Dictionary </h2></label>
-            <input type="search" placeholder="Search for a word" class="form-control search-input" onChange={handleKeywordChange}/>
+            <input type="search" placeholder="Search for a word" className="form-control search-input" onChange={handleKeywordChange}/>
           </form>
-          <small class="hint">i.e. London, weather, coffee</small>
+          <small className="hint">i.e. London, weather, coffee
+          </small>
           </section>
           <Results results={results}/>
         </div>
