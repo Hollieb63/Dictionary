@@ -1,6 +1,6 @@
 body{
     margin:80px;
-    background-color: #e9dbce;
+ 
 }
 
 
@@ -17,10 +17,36 @@ label{
     background: white;
     margin-top: 10px;
     padding: 40px;
+    opacity: 0.9;
 }
 .Dictionary .hint{
     padding: 10px;
     display: block;
     margin-top: 8px;
     font-size: 15px;
+}
+
+small.hint{
+    font-family:"Roboto", sans-serif;
+    color: black;
+    font-weight: 400;
+}
+.form-control{
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;  
+    color: black;
+   font-weight: 400;
+   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+h2.label{
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-weight: 500;  
+}
+footer{
+   font-family: "Raleway", sans-serif; 
+   font-size: 18px;
+   color: white;
+   font-weight: 500;
+   
 }

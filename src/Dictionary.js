@@ -52,11 +52,20 @@ function search(event){
             <label><h2 className="label">Browse the Dictionary </h2></label>
             <input type="search" placeholder="Search for a word" className="form-control search-input" onChange={handleKeywordChange}/>
           </form>
+          
           <small className="hint">i.e. London, weather, coffee
           </small>
           </section>
           <Results results={results}/>
           <Photos photos={photos}/>
+      
+          <footer>This project was coded by Hollie Bradshaw and is <a href="https://github.com/Hollieb63/Dictionary.git">open-sourced</a> and is hosted on <a href="https://dictionary-application-project.netlify.app/">Netifly</a></footer>
+     
         </div>
+       
+       
     )
 }
+<div>
+
+</div>
